@@ -70,13 +70,20 @@ main {
     margin-left: 10%;
 }
 
-ul, li {
+summary, li {
     margin-bottom: 20px;
 }
 
 ul {
     list-style: none;
+}
+
+details {
     margin-top: 50px;
+}
+
+summary {
+    font-weight: bold;
 }
 
 .checkmark, .crossmark {
