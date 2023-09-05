@@ -9,7 +9,7 @@ body {
     font-size: 32px;
     font-family: 'Roboto', sans-serif;
 }
-
+/* header  */
 header {
     background-color: white;
 }
@@ -22,9 +22,36 @@ header img {
     min-width: 80px;
     margin: 20px;
 }
+
+/* nav  */
+.add-task {
+
+    color: white;
+    background-color: #45abea;
+    border: 0px;
+}
+
+.add-section {
+    color: #ccd2d6;
+    border: 2px solid #ccd2d6;
+    background-color: white;
+}
+
+.add-task, .add-section {
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+/* main section  */
+ul, li {
+    margin-bottom: 20px;
+}
 ul {
     list-style: none;
 }
+li {}
+
 .checkmark, .crossmark {
     font-size: 0.5em;
     display: inline;
@@ -42,45 +69,30 @@ ul {
     border-color: red;
 }
 
-.add-task, .add-section {
-    font-size: 20px;
-    padding: 10px 15px;
-    border-radius: 10px;
-}
-
-.add-task {
-
-    color: white;
-    background-color: #45abea;
-    border: 0px;
-}
-
-.add-section {
-    color: #ccd2d6;
-    border: 2px solid #ccd2d6;
-    background-color: white;
-}
+/* tag colorati  */
 
 .tag-box {
+    font-size: 0.5em;
     color: white;
     padding: 10px;
     border-radius: 20px;
+    display: inline;
 }
-#editorial {
+.editorial {
     background-color: #45abea;
 }
-#q1-goals {
+.q1-goals {
     background-color: #9c72e4;
 }
-#recruiting {
+.recruiting {
     background-color: #64c0a9;
 }
-#mobile {
+.mobile {
     background-color: #f29e33;
 }
-#website {
+.website {
     background-color: #d863a1;
 }
-#sales {
+.sales {
     background-color: #b0c926;
 }
