@@ -33,18 +33,20 @@ header img {
     margin: auto;
     margin-top: 5%;
     background-color: white;
-    padding: 1% 5%;
     border-radius: 10px;
 }
 
 /* nav  */
 nav {
-    border-bottom: 5px solid #f6f8f9;
-    padding-bottom: 20px;
+    border-bottom: 3px solid #f6f8f9;
+    padding: 2% 0% 2% 0%;
+}
+
+.nav-buttons {
+    margin-left:10%;
 }
 
 .add-task {
-
     color: white;
     background-color: #45abea;
     border: 0px;
@@ -64,6 +66,9 @@ nav {
 
 /* main section  */
 
+main {
+    margin: 5% 10%
+}
 
 ul, li {
     margin-bottom: 20px;
