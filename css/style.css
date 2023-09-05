@@ -9,6 +9,7 @@ body {
     font-size: 32px;
     font-family: 'Roboto', sans-serif;
 }
+
 /* header  */
 header {
     background-color: white;
@@ -16,14 +17,32 @@ header {
 
 header h1 {
     display: inline-block;
+    vertical-align: middle;
+    font-size: 2.2em;
 }
 header img {
     width: 5%;
     min-width: 80px;
-    margin: 20px;
+    margin: 20px 0px 20px 20px;
+    vertical-align: middle;
+}
+
+/* contenitore  */
+.container {
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: white;
+    padding: 1% 5%;
+    border-radius: 10px;
 }
 
 /* nav  */
+nav {
+    border-bottom: 5px solid #f6f8f9;
+    padding-bottom: 20px;
+}
+
 .add-task {
 
     color: white;
@@ -44,13 +63,16 @@ header img {
 }
 
 /* main section  */
+
+
 ul, li {
     margin-bottom: 20px;
 }
+
 ul {
     list-style: none;
+    margin-top: 40px;
 }
-li {}
 
 .checkmark, .crossmark {
     font-size: 0.5em;
@@ -72,7 +94,7 @@ li {}
 /* tag colorati  */
 
 .tag-box {
-    font-size: 0.5em;
+    font-size: 0.6em;
     color: white;
     padding: 10px;
     border-radius: 20px;
