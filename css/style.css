@@ -49,7 +49,7 @@ nav {
 .add-task {
     color: white;
     background-color: #45abea;
-    border: 0px;
+    border: 2px solid #45abea;
 }
 
 .add-section {
@@ -62,6 +62,17 @@ nav {
     font-size: 20px;
     padding: 10px 15px;
     border-radius: 10px;
+}
+
+.add-task:hover {
+    border-color: #0a4fff;
+    background-color: #0a4fff;
+}
+
+.add-section:hover {
+    color: white;
+    border-color: #ccd2d6;
+    background-color: #ccd2d6;
 }
 
 /* main section  */
