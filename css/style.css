@@ -34,6 +34,8 @@ header img {
     margin-top: 5%;
     background-color: white;
     border-radius: 10px;
+    padding-bottom: 5px;
+
 }
 
 /* nav  */
@@ -147,6 +149,6 @@ summary {
 
 /* footer */
 footer {
-    margin: 5% 10%;
+    margin: 5% 10% 2% 10%;
     font-size: 0.5em;
 }
